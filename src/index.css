@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  src: url("assets/fonts/Montserrat-Bold.ttf");
+  font-family:Montserrat-Bold;
+}
+
+@font-face {
+  src: url("assets/fonts/Montserrat-Regular.ttf");
+  font-family:Montserrat-Regular;
+}
+
+@font-face {
+  src: url("assets/fonts/NoeDisplay-Bold.ttf");
+  font-family:NoeDisplay-Bold;
+}

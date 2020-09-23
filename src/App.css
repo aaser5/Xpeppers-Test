@@ -1,38 +1,80 @@
-.App {
+.App-Title{
+  font-family: NoeDisplay-Bold;
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sales-tax-form{
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, .3);
+  margin: auto;
+  padding: 1rem 1rem 3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.samples-container{
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container{
+  font-family: Montserrat-Regular;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: solid 1px grey;
+  padding-top: .5rem;
+
+  padding-bottom: 1rem;
+}
+.row-inputs{
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sales-input{
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+  margin-bottom: 1rem !important;
+  flex:1;
+}
+
+.check-box-container{
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.buttons-container{
+  display: flex;
+  flex-direction: column;
+}
+.buttons-container button{
+  margin-top: 2rem;
+}
+
+.modal-body{
+  background: #ffffff;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 20px;
+  height: 52%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: Montserrat-Regular;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-body label {
+  font-family: Montserrat-Bold;
 }
