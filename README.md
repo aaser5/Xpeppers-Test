@@ -2,12 +2,13 @@ This project is done using React Js
 ## Available Scripts
 
 Clone the repository first using 
-### `git clone `
-In the project directory, you can run:
+### `git clone https://github.com/aaser5/Xpeppers-Test.git `
+
+1 -In the project directory, you can run :
 
 ### `npm install`
-To install project modules 
 
+2- In the project directory, you can run :
 ### `npm start`
 
 Runs the app in the development mode.<br />
